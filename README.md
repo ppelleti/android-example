@@ -108,7 +108,8 @@ To just build your app, type:
 
     ./gradlew assemble
 
-However, if you have an Android phone attached, you can do:
+However, if you have an Android phone attached
+([and have enabled developer mode][9]), you can do:
 
     ./gradlew installDebug
 
@@ -150,3 +151,4 @@ run `change-package-name.pl`.
 [6]: https://stackoverflow.com/questions/20115391/gradle-and-proguard-could-not-find-method-runproguard-for-arguments-true#27016769
 [7]: ExampleActivity-orig.png
 [8]: ExampleActivity-21.png
+[9]: https://developer.android.com/studio/run/device.html
